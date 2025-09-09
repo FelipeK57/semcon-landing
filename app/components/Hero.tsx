@@ -30,13 +30,19 @@ export default function Hero() {
             <p className="text-sm text-center text-gray-600 mt-15">*Representantes y distribuidores autorizados de marcas líderes en automatización y medición*</p>
             <div className="grid grid-cols-3 items-center gap-8 md:gap-12 mx-auto">
                 <div className="flex items-center justify-center">
-                    <img src="/voith.svg" className="h-4 md:h-6" />
+                    <a href="https://www.voith.com/corp-en/index.html" target="_blank" rel="noopener noreferrer">
+                        <img src="/voith.svg" className="h-4 md:h-6" />
+                    </a>
                 </div>
                 <div className="flex items-center justify-center">
-                    <img src="/default-logo.png" className="h-4 md:h-6" />
+                    <a href="https://www.ametek.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="/default-logo.png" className="h-4 md:h-6" />
+                    </a>
                 </div>
                 <div className="flex items-center justify-center">
-                    <img src="/abb-logo.svg" className="h-4 md:h-6" />
+                    <a href="https://new.abb.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="/abb-logo.svg" className="h-4 md:h-6" />
+                    </a>
                 </div>
             </div>
         </section>
