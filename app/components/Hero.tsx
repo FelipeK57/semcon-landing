@@ -8,7 +8,7 @@ export default function Hero() {
 
     return (
         <section id="hero" className="flex flex-col gap-8 items-center overflow-hidden justify-center w-full min-h-svh py-40 px-4 relative bg-gradient-to-b from-transparent from-80% to-white">
-            <img src="/hero1.png" className="-z-10 absolute opacity-15 w-full h-full object-cover" />
+            <img src="/hero1.png" alt="Industria papelera automatización SEMCON" className="-z-10 absolute opacity-15 w-full h-full object-cover" />
             {/* <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"></div> */}
             {/* <div className="flex flex-row items-center gap-2 px-4 py-2 bg-primary/20 border border-primary rounded-full text-primary text-xs md:text-sm">
                 <Crown className="size-3 md:size-4" />
@@ -31,17 +31,17 @@ export default function Hero() {
             <div className="grid grid-cols-3 items-center gap-8 md:gap-12 mx-auto">
                 <div className="flex items-center justify-center">
                     <a href="https://www.voith.com/corp-en/index.html" target="_blank" rel="noopener noreferrer">
-                        <img src="/voith.svg" className="h-4 md:h-6" />
+                        <img src="/voith.svg" alt="Logo Voith" className="h-4 md:h-6" />
                     </a>
                 </div>
                 <div className="flex items-center justify-center">
                     <a href="https://www.ametek.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="/default-logo.png" className="h-4 md:h-6" />
+                        <img src="/default-logo.png" alt="Logo AMETEK" className="h-4 md:h-6" />
                     </a>
                 </div>
                 <div className="flex items-center justify-center">
                     <a href="https://new.abb.com/" target="_blank" rel="noopener noreferrer">
-                        <img src="/abb-logo.svg" className="h-4 md:h-6" />
+                        <img src="/abb-logo.svg" alt="Logo ABB" className="h-4 md:h-6" />
                     </a>
                 </div>
             </div>
