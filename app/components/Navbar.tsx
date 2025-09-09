@@ -49,10 +49,10 @@ export default function Navbar() {
         <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="fixed top-0 left-0 right-0 z-10 border-b-1 border-gray-200 w-full p-4 bg-gray-50/70 backdrop-blur"
+            className="fixed top-0 left-0 right-0 z-10 border-b-1 border-gray-200 w-full p-4 bg-white/70 backdrop-blur"
         >
             <nav className="flex items-center justify-between max-w-7xl mx-auto">
-                <img src="/Logo.png" className="h-8" />
+                <img src="/Logo.png" className="h-6 md:h-8" />
                 <ul className="hidden md:flex items-center gap-8">
                     {routes.map((route) => (
                         <a key={route.path} href={route.path} onClick={(e) => {

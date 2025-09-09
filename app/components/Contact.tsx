@@ -68,7 +68,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <Label htmlFor="message">Mensaje</Label>
-                    <Textarea className="h-full resize-none max-h-52 bg-white" placeholder="Escribe tu mensaje aquí." />
+                    <Textarea className="h-full resize-none max-h-52 bg-white" id="message" placeholder="Escribe tu mensaje aquí." />
                     <Button className="bg-primary active:scale-95 cursor-pointer">Enviar</Button>
                 </div>
             </div>
