@@ -14,7 +14,7 @@ export default function Hero() {
                 <Crown className="size-3 md:size-4" />
                 <p>Lideres en automatización papelera</p>
             </div> */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 w-full max-w-7xl mx-auto min-h-svh items-center justify-center py-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-20 w-full max-w-7xl mx-auto min-h-svh items-center justify-center py-32">
                 <div className="flex flex-col gap-4 items-start">
                     <h1 className="text-4xl xl:text-6xl font-bold">
                         Soluciones de <span className="text-primary">automatización</span> y <span className="text-primary">control</span> para la
@@ -42,8 +42,7 @@ export default function Hero() {
                     <img src="/hero1.png" alt="Industria papelera automatización SEMCON" className="w-full rounded-xl" loading="lazy" />
                     <div className="-z-10 w-full h-full bg-gray-200 rounded-xl absolute rotate-4" />
                 </div>
-            </div>
-            <div className="flex flex-col gap-6 items-center w-full">
+            <div className="flex flex-col gap-6 items-center w-full col-span-full">
                 <p className="text-sm text-center text-gray-600">*Representantes y distribuidores autorizados de marcas líderes en automatización y medición*</p>
                 <div className="grid grid-cols-3 items-center gap-8 md:gap-12 mx-auto max-w-lgF">
                     <div className="flex items-center justify-center">
@@ -62,6 +61,7 @@ export default function Hero() {
                         </a>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     )
