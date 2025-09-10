@@ -34,12 +34,6 @@ export const metadata: Metadata = {
     locale: "es_CO",
     type: "website"
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "SEMCON Colombia y Latinoamérica - Automatización e Instrumentación para la Industria Papelera",
-    description: "Servicios especializados de control y medición para la industria papelera en Colombia y Latinoamérica.",
-    images: ["/hero1.png"]
-  },
 };
 
 export default function RootLayout({

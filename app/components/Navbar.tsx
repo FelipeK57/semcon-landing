@@ -52,7 +52,7 @@ export default function Navbar() {
             className="fixed top-0 left-0 right-0 z-10 border-b-1 border-gray-200 w-full p-4 bg-white/70 backdrop-blur"
         >
             <nav className="flex items-center justify-between max-w-7xl mx-auto">
-                <img src="/Logo.png" className="h-6 md:h-8" />
+                <img src="/Logo.png" loading="lazy" className="h-6" />
                 <ul className="hidden md:flex items-center gap-8">
                     {routes.map((route) => (
                         <a key={route.path} href={route.path} onClick={(e) => {
